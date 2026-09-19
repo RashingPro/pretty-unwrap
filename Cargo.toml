@@ -1,6 +1,6 @@
 [package]
 name = "pretty_unwrap"
-version = "0.1.0"
+version = "1.0.0"
 description = "Zero-dependency Rust's `unwrap()` and similar methods implementation with usage of `Display` instead of `Debug`"
 license = "MIT"
 repository = "https://github.com/RashingPro/pretty-unwrap"
