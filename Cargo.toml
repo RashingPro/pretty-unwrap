@@ -1,0 +1,33 @@
+[package]
+name = "pretty_unwrap"
+version = "0.1.0"
+description = "Zero-dependency Rust's `unwrap()` and similar methods implementation with usage of `Display` instead of `Debug`"
+license = "MIT"
+repository = "https://github.com/RashingPro/pretty-unwrap"
+authors = ["RashingPro"]
+keywords = ["utils"]
+categories = ["rust-patterns", "no-std"]
+
+edition = "2024"
+rust-version = "1.85.1"
+
+[lints.rust]
+unsafe_op_in_unsafe_fn = "deny"
+
+[lints.clippy]
+perf = { level = "deny", priority = -1 }
+
+allow_attributes_without_reason = "deny"
+branches_sharing_code = "warn"
+collapsible_else_if = "deny"
+incompatible_msrv = "forbid"
+needless_return = "allow"
+new_without_default = "warn"
+str_to_string = "warn"
+use_self = "deny"
+
+[profile.release]
+lto = true
+codegen-units = 1
+
+[dependencies]
