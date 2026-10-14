@@ -5,7 +5,7 @@
 <img alt="Crates.io Total Downloads" src="https://img.shields.io/crates/d/pretty_unwrap">
 <img alt="GitHub License" src="https://img.shields.io/github/license/RashingPro/pretty-unwrap">
 
-Zero-dependency Rust's `unwrap()` and similar methods implementation with usage of `Display` instead of `Debug`.
+Zero-dependency Rust's `unwrap()` and similar methods implementation using `Display` instead of `Debug`.
 </div>
 
 ## Usage
